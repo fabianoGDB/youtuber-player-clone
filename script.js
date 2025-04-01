@@ -11,6 +11,7 @@ document.addEventListener("keydown", e => {
     const tagName = document.activeElement.tagName.toLowerCase()
 
     if (tagName === "input") return
+    
     switch (e.key.toLowerCase()){
         case " ":
             if (tagName === "button") return
